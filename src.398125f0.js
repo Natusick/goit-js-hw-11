@@ -90,4 +90,4 @@ var t=arguments[3];function e(t){return(e="function"==typeof Symbol&&"symbol"==t
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./css/styles.css"),require("./js/api/apiImages"),require("./js/api/apiHeader");
 },{"./sass/main.scss":"clu1","./css/styles.css":"krre","./js/api/apiImages":"jXB1","./js/api/apiHeader":"UlCP"}]},{},["Focm"], null)
-//# sourceMappingURL=/goit-js-hw-11/src.369fa84f.js.map
+//# sourceMappingURL=/goit-js-hw-11/src.398125f0.js.map

@@ -1,0 +1,109 @@
+body {
+    margin: 0px;
+    background-color: rgb(217, 217, 271);
+}
+  
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: rgb(217, 217, 227);
+}
+ 
+.page-header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgb(171, 181, 240);
+}
+  
+.search-form {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+}
+  
+.search-form input {
+    width: 100%;
+    height: 45px;
+    padding-left: 15px;
+    border-radius: 4px;
+    border: 2px solid rgb(171, 181, 240);
+}
+  
+.search-form input::placeholder {
+    color: rgba(105, 105, 105, 1);
+}
+  
+button {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 10px;
+    right: 10px;
+    border: none;
+    background: #fff;
+    cursor: pointer;
+}
+  
+button::before {
+    content: '\f002';
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: rgb(62, 22, 164);
+}
+  
+.card-set {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -15px;
+    margin-left: -15px;
+}
+  
+.card-item {
+    display: flex;
+    flex-direction: column;
+    flex-basis: calc(100% / 4 - 15px);
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0px 1px 3px rgba(1, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+  
+.card-img img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+}
+  
+.card-info {
+    display: flex;
+    justify-content: space-around;
+    border-top: rgb(126, 124, 124, 0,14);
+    background: rgb(248, 248, 249);
+}
+  
+.info-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    color: rgba(255, 228, 196, 1);
+}
+  
+.fa-solid {
+    color: rgb(92, 175, 243);
+}
+  
+b {
+    color: rgba(105, 105, 105, 1);
+}
